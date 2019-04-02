@@ -1,11 +1,12 @@
-nom_materia,cod_materia
+nom_mat,cod_mat
 'Lógica Matemática',11
 'Introdução a Programação',12 
 'Cálculo I',13
 'Geometria Analítica e Álgebra Vetorial',14
 'Programação Orientada a Objeto I',15
-'Estrutura de Dados I',16
+Estrutura de Dados I',16
 'Compiladores',17
 'Banco de Dados I',18
 'Sistemas Operacionais',19
-'Administração de Servidores',20
+Administração de Servidores',20
+Teoria dos Grafos', 21

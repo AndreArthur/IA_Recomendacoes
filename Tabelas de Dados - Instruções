@@ -1,55 +1,53 @@
-Tarefa : Adicionar Materias de Cada Curso em uma tabela CSV , Até 10 materias.
+Tarefa 1: Adicionar Materias de Cada Curso em uma tabela CSV , Até 11 materias.
+	Exemplo : Máterias de Direito
+		nom_mat, cod_mat
+		'Direito Constitucional', 0
+		'Direito Administrativo',1
+		'Direito Ambiental',2 
+		'Direito Civil',3
+		'Direito Constitucional',4
+		'Direito da Criança e do Adolescente',5
+		'Direito de Família',6
+		'Direito do Consumidor',7
+		'Direito Empresarial',8
+		'Direito Internacional',9
+		'Direito Penal',10
 
-Exemplo : Direito
+	Definições de Codigos das Matérias:
+		Direito - 0-10
+		Ciencias da Comp - 11 - 21 
+		Medicina - 22 - 32
+		Enfermagem - 33 - 43
+		Eng.Civil - 44 - 54
+		Psicologia - 55 - 65
+		Publicidade - 66 - 76
+		Ed.Fisica - 77 - 87
 
-nom_materia,cod_materia
-'Direito Administrativo',01
-'Direito Ambiental',02 
-'Direito Civil',03
-'Direito Constitucional',04
-'Direito da Criança e do Adolescente',05
-'Direito de Família',06
-'Direito do Consumidor',07
-'Direito Empresarial',08
-'Direito Internacional',09
-'Direito Penal',10
+	Códigos dos Cursos:
+		Direito - 01
+		Ciencias da Comp - 02
+		Medicina - 03
+		Enfermagem - 04
+		Eng.Civil - 05
+		Psicologia - 06
+		Publicidade - 07
+		Ed.Fisica - 08
 
-Definições de Codigos:
-Direito - 1-10
-Ciencias da Comp - 11 - 21 
-Medicina - 22 - 32
-Enfermagem - 33 - 43
-Eng.Civil - 44 - 54
-Psicologia - 55 - 65
-Publicidade - 66 - 76
-Ed.Fisica - 77 - 87
-
-Codigos dos Cursos:
-Direito - 01
-Ciencias da Comp - 02
-Medicina - 03
-Enfermagem - 04
-Eng.Civil - 05
-Psicologia - 06
-Publicidade - 07
-Ed.Fisica - 08
-
-Tarefa : Adicionar Perfil de Cada Curso em uma tabela CSV
+Tarefa 2: Adicionar Perfil de Cada Curso em uma tabela CSV
 É necessario colocar os codigos das materias do 01 até o 77 , e dar as notas de acordo com o curso do perfil
 por exemplo , no perfil de direito as materias de direito tem notas de 4 a 5 , e para materias que não tem a 
 ver com direito as notas devem ser de 0 a 1 , para cursos que tem materias semelhantes , ex Medicina e Enfermagem 
 colocar materias do curso semelhante com notas de 3-4. Nota Max : 5 , Nota Min : 0
 Exemplo : Direito
-
-cod_curso, cod_mat, nota
-01,01,5
-01,02,5
-01,03,5
-01,04,5
-01,05,5
-01,06,5
-01,07,5
-01,08,5
-01,09,5
-01,10,5
-...
+		cod_curso, cod_mat, nota
+		01,01,5
+		01,02,5
+		01,03,5
+		01,04,5
+		01,05,5
+		01,06,5
+		01,07,5
+		01,08,5
+		01,09,5
+		01,10,5
+		...
